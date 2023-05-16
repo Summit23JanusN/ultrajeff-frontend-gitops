@@ -1,0 +1,15 @@
+app:
+  name: poi-map-app
+  namespace: ultrajeff
+  cluster: .apps.summit23bis.17gd.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23JanusN/ultrajeff-frontend
+  org: Summit23JanusN
+  name: ultrajeff-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ultrajeff/poi-map-app
+  tag: latest
